@@ -5,6 +5,13 @@ Este proyecto aplica técnicas de Ciencia de Datos y Aprendizaje Automático par
 
 ---
 # 📚Estructura del repositorio
+
+1.Carpeta principal [Sleep-Diorders](https://github.com/StephaniVJ/SleepDisorders-SMJ-T1/tree/main)
+  - [Notebooks](Sleep-Disorders/Notebooks)
+     - sleep-disorder--->Código Original
+     - Trastorno-del-sueño--->Código optimizado
+  - [PDF-Report](Sleep-Disorders/PDF)
+  - Readme.md
 ---
 ## 📊 Objetivo del Proyecto
 
@@ -28,7 +35,7 @@ Comparación con visualizaciones (matriz de confusión, curva ROC)
 
 ---
 ## 📈 Resultados
-Los modelos  XGBoost y Gradient Boosting optimizados obtuvieron el mejor rendimiento con una accuracy de 0.96%. Los resultados muestran que el nivel de estrés, la salud mental y el consumo de alcohol son variables altamente correlacionadas con trastornos como el insomnio y la apnea.
+Los modelos  XGBoost y Gradient Boosting optimizados obtuvieron el mejor rendimiento con una accuracy de 0.96%. Los resultados la edad, el campo laboral, la frecuencia cardica, el género y el nivel de actividad física; son variables altamente correlacionadas con trastornos como el insomnio y la apnea.
 
 ---
 ## 📑 Informe
@@ -43,4 +50,21 @@ Incluye:
 
 * Explicación de modelos
 
-* Conclusiones 
+* Conclusiones
+  
+---
+## ⚙️ Requisitos
+Instala las dependencias con:
+
+```bash
+pip install -r requirements.txt
+
+# Puedes ejecutar el proyecto clonando este repositorio y abriendo los notebooks del código base y del código optimizado:
+git clone (https://github.com/StephaniVJ/SleepDisorders-SMJ-T1)
+cd Sleep-Disorders/Notebooks
+jupyter notebook Trastorno-del-sueño(1).ipynb  # Código optimizado
+jupyter notebook sleep-disorders.ipynb # Código base
+```
+
+Licencia
+Este proyecto se distribuye bajo la licencia MIT. Puedes modificarlo y reutilizarlo libremente para fines educativos o personales.
